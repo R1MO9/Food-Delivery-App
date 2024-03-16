@@ -9,6 +9,7 @@ import Join_Us from './components/Join Us/Join_Us';
 import Navbar from './components/Navbar/Navbar';
 import Order_App from './components/Order App/Order_App';
 import Achievement from './components/Achivements/Achivements';
+import Features from './components/Features/Features';
 
 const App = () => {
   return (
@@ -85,6 +86,9 @@ const App = () => {
       <div>
         <Achievement />
       </div>
+
+      {/*  */}
+      <Features />
 
     </div>
     </>
