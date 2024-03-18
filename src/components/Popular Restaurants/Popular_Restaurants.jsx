@@ -2,7 +2,7 @@ import React from 'react'
 
 const Popular_Restaurants = (props) => {
   return (
-    <div className='rounded-xl bg-amber-500 m-4 w-36 sm:w-44 shrink-0'>
+    <div className='rounded-xl bg-amber-500 m-4 w-36 sm:w-40 shrink-0'>
         {/* Images */}
         <div className=''>
             <img src={props.img} alt={props.restaurants} className='w-44' />
