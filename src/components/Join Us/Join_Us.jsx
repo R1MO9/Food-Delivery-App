@@ -5,7 +5,7 @@ const Join_Us = () => {
     <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 m-4'>
   {/* Partner With Us */}
   <div className="relative">
-    <img className="w-full h-auto sm:h-80 rounded-xl" src="Images/Rectangle 8.png" alt="Overlay" />
+    <img className="w-full rounded-xl" src="Images/Group 8 (1).png" alt="Overlay" />
 
     <div className="absolute top-0 left-4 bg-white p-3 rounded-b-lg font-bold text-xs lg:left-10 lg:text-lg flex items-center">
       <p>Earn more with low fees</p>
@@ -22,7 +22,7 @@ const Join_Us = () => {
 
   {/* Ride With Us */}
   <div className="relative">
-    <img className="w-full h-auto sm:h-80 rounded-xl" src="Images/Rectangle 8 (1).png" alt="Overlay" />
+    <img className="w-full rounded-xl" src="Images/Group 8.png" alt="Overlay" />
 
     <div className="absolute top-0 left-4 bg-white p-3 rounded-b-lg font-bold text-xs lg:left-10 lg:text-lg flex items-center">
       <p>Avail exclusive perks</p>
