@@ -3,29 +3,41 @@ import React from 'react'
 const Join_Us = () => {
   return (
     <div className='grid grid-cols-1 sm:grid-cols-2 gap-10 m-4'>
-      {/* Partner With Us */}
-      <div class="relative">
-  <img class="w-full h-auto" src="Images/Rectangle 8.png" alt="Overlay" />
-  <div class="absolute top-0 text-xs left-4 bg-white p-3 rounded-b-lg font-bold lg:left-10 lg:text-lg flex items-center">
-    <p>Earn more with low fees</p>
+  {/* Partner With Us */}
+  <div className="relative">
+    <img className="w-full h-auto sm:h-80 rounded-xl" src="Images/Rectangle 8.png" alt="Overlay" />
+
+    <div className="absolute top-0 left-4 bg-white p-3 rounded-b-lg font-bold text-xs lg:left-10 lg:text-lg flex items-center">
+      <p>Earn more with low fees</p>
+    </div>
+
+    <div className="absolute bottom-2 lg:left-10 lg:bottom-10 p-4 flex flex-col items-start">
+      <div className='py-4'>
+        <p className="text-amber-500 text-xs font-semibold sm:text-lg">Signup as a business</p>
+        <p className="text-2xl font-bold text-white sm:text-3xl">Partner with us</p>
+      </div>
+      <button className="bg-amber-500 text-white px-6 py-1 rounded-full font-semibold hover:bg-amber-600">Get started</button>
+    </div>
   </div>
-  <div class="absolute bottom-2 flex flex-col items-start lg:left-10 lg:bottom-10 p-4">
-    <p class="text-amber-500 font-semibold sm:text-sm mb-2">Signup as a business</p>
-    <p class="text-3xl font-bold text-white mb-4">Partner with us</p>
-    <button class="bg-amber-500 text-white px-6 py-1 rounded-full font-semibold">Get started</button>
+
+  {/* Ride With Us */}
+  <div className="relative">
+    <img className="w-full h-auto sm:h-80 rounded-xl" src="Images/Rectangle 8 (1).png" alt="Overlay" />
+
+    <div className="absolute top-0 left-4 bg-white p-3 rounded-b-lg font-bold text-xs lg:left-10 lg:text-lg flex items-center">
+      <p>Avail exclusive perks</p>
+    </div>
+
+    <div className="absolute bottom-2 lg:left-10 lg:bottom-10 p-4 flex flex-col items-start">
+      <div className='py-4'>
+        <p className="text-amber-500 text-xs font-semibold sm:text-lg">Signup as a rider</p>
+        <p className="text-2xl font-bold text-white sm:text-3xl">Ride with us</p>
+      </div>
+      <button className="bg-amber-500 text-white px-6 py-1 rounded-full font-semibold hover:bg-amber-600">Get started</button>
+    </div>
   </div>
 </div>
 
-
-
-
-
-
-        {/* Ride With Us */}
-        <div>
-            <img src="Images\Group 10.png" alt=""/>
-        </div>
-    </div>
   )
 }
 
