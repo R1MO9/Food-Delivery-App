@@ -2,8 +2,8 @@ import React from 'react';
 const Banner = () => {
     return(
         <>
-        <div className='flex justify-between bg-slate-950 text-white px-10 sm:mx-4 rounded-lg'>
-            <div className='mx-auto my-10 lg:my-auto text-center lg:text-left'>
+        <div className='flex justify-between bg-slate-950 text-white px-10 rounded-lg sm:m-4'>
+            <div className='mx-auto my-10 lg:my-auto text-center'>
                 <div className='font-bold'>
                     <p className='text-sm'>Order Reastaurant food, takeaway and groceries.</p>
                     <p className='text-4xl'>Feast your senses</p>
@@ -12,8 +12,8 @@ const Banner = () => {
                 <div className='mt-10'>
                     <p className='text-sm font-semibold my-2'>Enter a postcode to see what we deliver</p>
                     <div className='flex w-fit bg-white rounded-full'>
-                        <input type="number" placeholder='e.g. 700110' className='py-2 px-5 rounded-full' />
-                        <button className='bg-amber-500 rounded-full px-4 sm:px-5'>Search</button>
+                        <input type="number" placeholder='e.g. 700110' className='py-2 px-3 rounded-full sm:px-5' />
+                        <button className='bg-amber-500 rounded-full px-3 sm:px-5'>Search</button>
                     </div>
                 </div>
             </div>
