@@ -8,7 +8,8 @@ import Exclusive_Deals from './components/Exclusive Deals/Exclusive_Deals';
 import Join_Us from './components/Join Us/Join_Us';
 import Navbar from './components/Navbar/Navbar';
 import Order_App from './components/Order App/Order_App';
-import Achievement from './components/Achivements/Achivements';
+import Achievement from './components/Achievement/Achievement';
+import Footer from './components/Footer/Footer';
 import Features from './components/Features/Features';
 
 const App = () => {
@@ -80,17 +81,21 @@ const App = () => {
         </div>
         <Join_Us />
       </div>
-      
 
       {/* Achivements */}
-      <div>
+      {/* <div>
         <Achievement />
-      </div>
+      </div> */}
 
       {/*  */}
       <Features />
 
+      
     </div>
+    {/*  */}
+    <div>
+        <Footer />
+      </div>
     </>
   );
 }
