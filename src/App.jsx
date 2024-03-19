@@ -11,6 +11,7 @@ import Order_App from './components/Order App/Order_App';
 import Achievement from './components/Achievement/Achievement';
 import Footer from './components/Footer/Footer';
 import Features from './components/Features/Features';
+import Banner from './components/Banner/Banner';
 
 const App = () => {
   return (
@@ -19,6 +20,10 @@ const App = () => {
       <Navbar />
     </div>
     <div className=' max-w-screen-xl mx-auto'>
+      {/* Banner */}
+      <div>
+        <Banner />
+      </div>
       {/* Exclusive Deals */}
       <div className='flex overflow-auto no-scrollbar justify-between'>
         <Exclusive_Deals 
