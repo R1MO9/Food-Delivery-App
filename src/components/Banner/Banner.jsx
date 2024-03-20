@@ -11,8 +11,8 @@ const Banner = () => {
                 </div>
                 <div className='mt-10'>
                     <p className='text-sm font-semibold my-2'>Enter a postcode to see what we deliver</p>
-                    <div className='flex w-fit bg-white rounded-full mx-auto lg:mx-0'>
-                        <input type="number" placeholder='e.g. 700110' className='py-2 px-3 rounded-full sm:px-5' />
+                    <div className='flex w-fit bg-white text-black rounded-full mx-auto lg:mx-0'>
+                        <input type="number" placeholder='e.g. 700110' className='py-2 px-3 rounded-full sm:px-5 font-medium' />
                         <button className='bg-amber-500 rounded-full px-3 sm:px-5'>Search</button>
                     </div>
                 </div>
