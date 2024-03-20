@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import { FaUser } from 'react-icons/fa';
 const Navbar = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
 
@@ -8,7 +9,7 @@ const Navbar = () => {
     };
 
   return (
-    <nav className='flex justify-between px-8 items-center h-16 font-mono' role='navigation'>
+    <nav className='flex justify-between px-8 items-center h-16 font-semibold' role='navigation'>
         {/* Logo */}
         <a href='/' className='w-40 sm:w-40 md:w-52'><img src="Images\LOGO 1.png" /></a>
 
@@ -21,11 +22,11 @@ const Navbar = () => {
 
         {/* Nav Items */}
         <div className='xl:block hidden'>
-            <a href='/' className='p-4'>Home</a>
-            <a href='/' className='p-4'>Browse Menu</a>
-            <a href='/' className='p-4'>Special Offers</a>
-            <a href='/' className='p-4'>Restaurants</a>
-            <a href='/' className='p-4'>Track Order</a>
+            <a href='/' className='px-6 py-2 hover:bg-amber-500 rounded-full'>Home</a>
+            <a href='/' className='px-6 py-2 hover:bg-amber-500 rounded-full'>Browse Menu</a>
+            <a href='/' className='px-6 py-2 hover:bg-amber-500 rounded-full'>Special Offers</a>
+            <a href='/' className='px-6 py-2 hover:bg-amber-500 rounded-full'>Restaurants</a>
+            <a href='/' className='px-6 py-2 hover:bg-amber-500 rounded-full'>Track Order</a>
         </div>
 
         {!isCollapsed && (
@@ -56,7 +57,7 @@ const Navbar = () => {
 
         {/* Login/Signup */}
         <div className='xl:block hidden'>
-            <button className='bg-slate-950 hover:bg-slate-900 text-white font-bold py-2 px-4 rounded-3xl'>Login/Signup</button>
+            <button className='flex bg-slate-950 hover:bg-slate-900 text-white font-bold py-2 px-4 rounded-3xl'><span className='bg-amber-500 text-black rounded-full p-1 mr-1'><FaUser /></span>Login/Signup</button>
         </div>
     </nav>
   )

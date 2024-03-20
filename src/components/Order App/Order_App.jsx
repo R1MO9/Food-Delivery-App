@@ -3,7 +3,7 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className='m-4 grid grid-cols-1 sm:grid-cols-2 bg-slate-200 sm:px-20'>
+    <div className='m-4 grid grid-cols-1 sm:grid-cols-2 bg-slate-200 sm:px-20 rounded-xl'>
       {/* img */}
       <div className='hidden sm:block'>
         <img src="Images\friends-laughing-using-mobiles 2.png" alt="Order App Banner" className='w-full' />
