@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import { useState, useEffect } from 'react';
 import Popular_Categories_Data from './Popular_Categories_Data';
 import Popular_Categories from './components/Popular Categories/Popular_Categories'
 import Popular_Restaurants from './components/Popular Restaurants/Popular_Restaurants';
@@ -14,12 +15,37 @@ import Features from './components/Features/Features';
 import Banner from './components/Banner/Banner';
 
 const App = () => {
+
+  const [showText, setShowText] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowText(true);
+    }, 4000); // Show text after 10 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
   <>
     <div>
       <Navbar />
     </div>
-    <div className=' max-w-screen-xl mx-auto'>
+
+    {/* test */}
+    <div className="relative text-center">
+      <div className='fixed right-20 bottom-20 hover:scale-110 shadow-2xl rounded-full'>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpuVDo_ri1llFKJYXquUhaWGLkTGi66gPvtwVwBSHqMQ&s' alt='banner' className='w-20 rounded-full p-1 shadow-2xl' />
+      </div>
+
+      {showText && (
+        <div className='fixed px-20 right-20 bottom-20 py-5'>
+          <p className='text-white bg-black p-2 rounded-lg shadow-2xl'>Order Now</p>
+        </div>
+      )}
+    </div>
+
+
+    <div className='max-w-screen-xl mx-auto'>
       {/* Banner */}
       <div>
         <Banner />
@@ -27,13 +53,19 @@ const App = () => {
       {/* Exclusive Deals */}
       <div className='flex overflow-auto no-scrollbar justify-between'>
         <Exclusive_Deals 
+          img='Images\Exclusive Deals\Deal 2.png'
+          discount='20%'
+          restaurants_name='Chef Burgers London'
+        />
+        <Exclusive_Deals 
           img='Images\Exclusive Deals\Deal 1.png'
+          discount='30%'
+          restaurants_name='Grand Ai Cafe London'
         />
         <Exclusive_Deals 
           img='Images\Exclusive Deals\Deal 2.png'
-        />
-        <Exclusive_Deals 
-          img='Images\Exclusive Deals\Deal 3.png'
+          discount='20%'
+          restaurants_name='Butterbrot Cafe London'
         />
       </div>
 
@@ -95,7 +127,7 @@ const App = () => {
       {/*  */}
       <Features />
 
-      
+
     </div>
     {/*  */}
     <div>
