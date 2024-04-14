@@ -19,7 +19,7 @@ const Popup = () => {
 
       {showText && (
         <div className='fixed right-5 bottom-5 px-24 sm:right-20 sm:bottom-20 py-5'>
-          <p className='text-white bg-black p-2 rounded-lg shadow-2xl'>Order Now</p>
+          <p className='text-white bg-green-600 p-2 rounded-lg shadow-2xl'>Order Now</p>
         </div>
       )}
     </div>
