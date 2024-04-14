@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
 
         {!isCollapsed && (
-        <div className='fixed top-0 right-0 h-full bg-slate-300'>
+        <div className='fixed top-0 right-0 h-full bg-slate-300 z-50'>
             <div className ='text-xl font-semibold py-4 m-2'>
                 <div className="flex justify-end">
                     <button onClick={toggleCollapse} className="focus:outline-none">
