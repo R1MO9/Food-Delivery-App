@@ -16,10 +16,10 @@ The source code for this project is publicly available on GitHub. You can find t
 ![Local Image](public/ReadMe%20images/1.png)
 
 ### 2
-![Local Image](public\ReadMe%20images\2.png)
+![Local Image](public/ReadMe%20images/2.png)
 
 ### 3
-![Local Image](public\ReadMe%20images\3.png)
+![Local Image](public/ReadMe%20images/3.png)
 
 ## Table of Contents
 
