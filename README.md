@@ -10,6 +10,17 @@ Check out the live demo of the app [here](https://test-six-opal-50.vercel.app/).
 
 The source code for this project is publicly available on GitHub. You can find the repository [here](https://github.com/r1mo9/food-delivery-app).
 
+## Screenshots
+
+### 1
+![Local Image](public/ReadMe%20images/1.png)
+
+### 2
+![Local Image](public\ReadMe%20images\2.png)
+
+### 3
+![Local Image](public\ReadMe%20images\3.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
