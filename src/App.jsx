@@ -13,8 +13,6 @@ import Achievement from './components/Achievement/Achievement';
 import Footer from './components/Footer/Footer';
 import Features from './components/Features/Features';
 import Banner from './components/Banner/Banner';
-import Popup from './components/Popup/Popup';
-import NewTest from './components/NewTest/NewTest'
 
 const App = () => {
 
@@ -24,9 +22,6 @@ const App = () => {
     <div>
       <Navbar />
     </div>
-
-    {/* test */}
-    <Popup />
     
 
 
@@ -111,8 +106,6 @@ const App = () => {
 
       {/*  */}
       <Features />
-      {/*  */}
-      <NewTest />
     </div>
       {/* Footer */}
       <div>
