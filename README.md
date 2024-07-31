@@ -1,4 +1,5 @@
 # Food Delivery App Frontend
+## 2nd Year College Project
 
 Welcome to the Food Delivery App frontend project! This project is developed using React, Vite, and Tailwind CSS. It provides a seamless user experience for browsing and ordering food from various restaurants.
 
